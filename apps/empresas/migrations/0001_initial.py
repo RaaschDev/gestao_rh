@@ -12,10 +12,10 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
-            name='Funcionario',
+            name='Empresa',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('nome', models.CharField(help_text='Nome do funcionario', max_length=100, verbose_name='Funcionario')),
+                ('nome', models.CharField(help_text='Nome da empresa.', max_length=155, verbose_name='Empresa')),
             ],
         ),
     ]
