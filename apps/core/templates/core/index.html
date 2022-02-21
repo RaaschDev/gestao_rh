@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Index
+{% endblock title %}
+
+{% block main %}
+    <div class="row text-center">
+        <div class="col md-4 bg-success">
+            coluna1
+        </div>
+        <div class="col md-4 bg-info">
+            coluna2
+        </div>
+        <div class="col md-4 bg-warning">
+            <a class="btn btn-primary" href="{%url 'logout'%}">Sair</a>
+        </div>
+    </div>
+{% endblock main %}
+    
+    
